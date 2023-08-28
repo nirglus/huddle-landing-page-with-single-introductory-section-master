@@ -109,8 +109,7 @@ footer{
         padding: 7%;
     }
     header img{
-        width: 30vw;
-        padding: 3%;
+        width: 40vw;
     }
     main{
         flex-direction: column;
@@ -141,7 +140,14 @@ footer{
     .reg-btn{
         width: 200px;
         height: 30px;
-    
+        font-size: 12px;
+    }
+    footer{
+        justify-content: center;
+        margin-top: 5vh;
+    }
+    .icons{
+        transform: scale(0.6);
     }
 
 
