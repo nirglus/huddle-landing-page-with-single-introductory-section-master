@@ -89,6 +89,15 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: border-color 0.5s, color 0.5s;
+}
+.icon:hover{
+    cursor: pointer;
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+}
+.icon:active{
+    transform: translateY(2px);
 }
 
 
