@@ -67,4 +67,8 @@ header{
 .reg-btn:active{
     transform: translateY(2px);
 }
+footer{
+    display: flex;
+    justify-content: flex-end;
+}
 
