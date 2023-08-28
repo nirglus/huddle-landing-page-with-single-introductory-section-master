@@ -7,7 +7,6 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    /* font-family: 'Open Sans', sans-serif; */
     font-family: 'Poppins', sans-serif; 
     background-image: url(../images/bg-desktop.svg);
     background-color: hsl(257, 40%, 49%);
@@ -41,6 +40,8 @@ header{
 }
 .r-side h1{
     font-size: 43px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
 }
 .r-side p{
     color: rgba(255, 255, 255, 0.8);
@@ -55,7 +56,7 @@ header{
     border: 0;
     font-size: 18px;
     color: hsl(257, 40%, 49%);
-    box-shadow: 2px 5px 15px 0px #343333;
+    box-shadow: 2px 2px 8px 0px #343333;
     margin-top: 10px;
     transition: background-color 0.5s, color 0.5s;
 }
