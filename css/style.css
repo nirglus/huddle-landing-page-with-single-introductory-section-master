@@ -104,6 +104,13 @@ footer{
         background-image: url(../images/bg-mobile.svg);
         background-size: cover;
     }
+    header{
+        padding: 7%;
+    }
+    header img{
+        width: 30vw;
+        padding: 3%;
+    }
     main{
         flex-direction: column;
         height: unset;
