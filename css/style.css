@@ -99,6 +99,23 @@ footer{
 .icon:active{
     transform: translateY(2px);
 }
+@media (max-width:600px){
+    body{
+        background-image: url(../images/bg-mobile.svg);
+        background-size: cover;
+    }
+    main{
+        flex-direction: column;
+        height: unset;
+    }
+    .l-side{
+        width: unset;
+    }
+    .r-side{
+        width:unset;
+    }
+
+}
 
 
 
