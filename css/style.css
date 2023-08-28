@@ -1,4 +1,7 @@
 body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin: 0;
     padding:0;
     height: 100vh;
@@ -13,6 +16,10 @@ body{
 main{
     display: flex;
 }
+.l-side{
+    margin-left: 119px;
+    margin-top: 65px;
+}
 .l-side img{
-    width: 600px;
+  transform:scale(1.1);
 }
