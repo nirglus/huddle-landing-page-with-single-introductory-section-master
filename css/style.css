@@ -10,3 +10,6 @@ body{
 main{
     display: flex;
 }
+.l-side img{
+    width: 600px;
+}
