@@ -19,7 +19,19 @@ main{
 .l-side{
     margin-left: 119px;
     margin-top: 65px;
+    width:700px;
 }
 .l-side img{
   transform:scale(1.1);
+}
+.r-side{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #fff;
+    margin-left: 78px;
+    margin-top: 70px;
+}
+.r-side h1{
+    font-size: 43px;
 }
