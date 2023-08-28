@@ -11,26 +11,33 @@ body{
     font-family: 'Poppins', sans-serif; 
     background-image: url(../images/bg-desktop.svg);
     background-color: hsl(257, 40%, 49%);
-    background-size: cover;
+    background-size: contain;
 }
 main{
     display: flex;
+    height: 75vh;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+header{
+    padding: 1%;
 }
 .l-side{
-    margin-left: 119px;
-    margin-top: 65px;
-    width:700px;
+    width: 51vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .l-side img{
-  transform:scale(1.1);
+    width:90%;
 }
 .r-side{
     display: flex;
+    align-self: center;
     flex-direction: column;
     align-items: flex-start;
     color: #fff;
-    margin-left: 78px;
-    margin-top: 70px;
+    width: 40vw;
 }
 .r-side h1{
     font-size: 43px;
@@ -39,7 +46,7 @@ main{
     color: rgba(255, 255, 255, 0.8);
     margin-top: 0;
     font-size: 16px;
-    width: 495px;
+
 }
 .reg-btn{
     width: 187px;
