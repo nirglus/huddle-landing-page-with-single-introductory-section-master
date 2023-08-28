@@ -102,7 +102,8 @@ footer{
 @media (max-width:600px){
     body{
         background-image: url(../images/bg-mobile.svg);
-        background-size: cover;
+        background-size: unset;
+        background-repeat: no-repeat;
         height: unset;
     }
     header{
@@ -149,8 +150,6 @@ footer{
     .icons{
         transform: scale(0.6);
     }
-
-
 }
 
 
