@@ -57,5 +57,14 @@ header{
     color: hsl(257, 40%, 49%);
     box-shadow: 2px 5px 15px 0px #343333;
     margin-top: 10px;
+    transition: background-color 0.5s, color 0.5s;
+}
+.reg-btn:hover{
+    cursor: pointer;
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+}
+.reg-btn:active{
+    transform: translateY(2px);
 }
 
